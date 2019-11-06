@@ -1,0 +1,104 @@
+Insira o numero de numeros na linha: 	Numero inserido: 1
+	Numero inserido: 2
+	Numero inserido: 3
+	Numero inserido: 4
+	Numero inserido: 5
+	Numero inserido: 6
+	Numero inserido: 7
+	Numero inserido: 8
+	Numero inserido: 9
+-----------------------------
+Insira o numero de numeros na linha: 	Numero inserido: 9
+	Numero inserido: 8
+	Numero inserido: 7
+	Numero inserido: 6
+	Numero inserido: 5
+	Numero inserido: 4
+	Numero inserido: 3
+	Numero inserido: 2
+	Numero inserido: 1
+-----------------------------
+Insira o numero de numeros na linha: 	Numero inserido: 5
+	Numero inserido: 3
+	Numero inserido: 8
+	Numero inserido: 1
+	Numero inserido: 2
+	Numero inserido: 4
+	Numero inserido: 6
+	Numero inserido: 7
+	Numero inserido: 9
+-----------------------------
+Insira o numero de numeros na linha: 	Numero inserido: 9
+	Numero inserido: 7
+	Numero inserido: 6
+	Numero inserido: 4
+	Numero inserido: 2
+	Numero inserido: 1
+	Numero inserido: 8
+	Numero inserido: 5
+	Numero inserido: 3
+-----------------------------
+Insira o numero de numeros na linha: 	Numero inserido: 1
+	Numero inserido: 2
+	Numero inserido: 3
+-----------------------------
+Insira o numero de numeros na linha: 	Numero inserido: 3
+	Numero inserido: 2
+	Numero inserido: 1
+-----------------------------
+Insira o numero de numeros na linha: -----------------------------
+Linhas inseridas: 6
+	Numero sendo inserido agora: 1
+	Numero sendo inserido agora: 2
+	Numero sendo inserido agora: 3
+	Numero sendo inserido agora: 4
+	Numero sendo inserido agora: 5
+	Numero sendo inserido agora: 6
+	Numero sendo inserido agora: 7
+	Numero sendo inserido agora: 8
+	Numero sendo inserido agora: 9
+	Numero sendo inserido agora: 9
+	Numero sendo inserido agora: 8
+	Numero sendo inserido agora: 7
+	Numero sendo inserido agora: 6
+	Numero sendo inserido agora: 5
+	Numero sendo inserido agora: 4
+	Numero sendo inserido agora: 3
+	Numero sendo inserido agora: 2
+	Numero sendo inserido agora: 1
+	Numero sendo inserido agora: 5
+	Numero sendo inserido agora: 3
+	Numero sendo inserido agora: 8
+	Numero sendo inserido agora: 1
+	Numero sendo inserido agora: 2
+	Numero sendo inserido agora: 4
+	Numero sendo inserido agora: 6
+	Numero sendo inserido agora: 7
+	Numero sendo inserido agora: 9
+	Numero sendo inserido agora: 9
+	Numero sendo inserido agora: 7
+	Numero sendo inserido agora: 6
+	Numero sendo inserido agora: 4
+	Numero sendo inserido agora: 2
+	Numero sendo inserido agora: 1
+	Numero sendo inserido agora: 8
+	Numero sendo inserido agora: 5
+	Numero sendo inserido agora: 3
+	Numero sendo inserido agora: 1
+	Numero sendo inserido agora: 2
+	Numero sendo inserido agora: 3
+	Numero sendo inserido agora: 3
+	Numero sendo inserido agora: 2
+	Numero sendo inserido agora: 1
+Mostrando a arvore: 0
+1 2 3 4 5 6 7 8 9 
+Mostrando a arvore: 1
+9 8 7 6 5 4 3 2 1 
+Mostrando a arvore: 2
+5 3 4 8 7 9 
+Mostrando a arvore: 3
+9 7 8 5 3 
+Mostrando a arvore: 4
+1 2 3 
+Mostrando a arvore: 5
+3 2 1 
