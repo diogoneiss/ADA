@@ -25,7 +25,7 @@ public class ArvoreADA {
         do {
           linhas++;
          
-         MyIO.print("Insira o numero de numeros na linha: ");
+        // MyIO.print("Insira o numero de numeros na linha: ");
           
           //primeiro int do stdin é o numero de numeros naquela linha
           entradas[0][linhas] = MyIO.readInt();
@@ -33,12 +33,12 @@ public class ArvoreADA {
           
           for(int i=1; i<= numeroNumerosLinha ;i++){
             entradas[i][linhas] = MyIO.readInt();
-            MyIO.println("\tNumero inserido: "+entradas[i][linhas]);
+           // MyIO.println("\tNumero inserido: "+entradas[i][linhas]);
           }
-          MyIO.println("-----------------------------");
+          //MyIO.println("-----------------------------");
             
         } while (numeroNumerosLinha != 0);
-        MyIO.println("Linhas inseridas: "+linhas);
+        //MyIO.println("Linhas inseridas: "+linhas);
 
         // array de referencias a objetos
         ArvoreADA conjuntoArvores[] = new ArvoreADA[linhas];
@@ -47,12 +47,13 @@ public class ArvoreADA {
         for (int j = 0; j < linhas; j++) {  
           conjuntoArvores[j] = new ArvoreADA();
           for (int i = 1; i <= entradas[0][j]; i++) {
-            MyIO.println("\tNumero sendo inserido agora: "+entradas[i][j]);
+            //MyIO.println("\tNumero sendo inserido agora: "+entradas[i][j]);
             conjuntoArvores[j].inserir2(entradas[i][j]);
           }
+		  MyIO.println("-------------------------");
         }
         for(int k = 0; k < linhas; k++){
-         MyIO.println("Mostrando a arvore: "+k);
+         //MyIO.println("Mostrando a arvore: "+k);
           conjuntoArvores[k].mostrarPre();
         }
         
@@ -81,7 +82,8 @@ public class ArvoreADA {
 	}
 	public void inserir2(int x) throws Exception {
 		if(raiz == null){
-      raiz = new No(x);
+      //	MyIO.println("Criando no: "+x);
+			raiz = new No(x);
 		} else if(x < raiz.elemento){
 			 inserir2(x, raiz.esq, raiz);
 		} else if(x > raiz.elemento){
@@ -96,10 +98,14 @@ public class ArvoreADA {
 	   */
 	  private void inserir2(int x, No i, No pai) throws Exception {
 		  if (i == null) {
-		   if(x < raiz.elemento){
+		   if(x < pai.elemento){
+
+      	//MyIO.println("Criando no na esquerda: "+x);
 			  pai.esq = new No(x);
 		   } else {
-			  pai.dir = new No(x);
+		
+      	//MyIO.println("Criando no na direita: "+x);
+			   pai.dir = new No(x);
 		   }
 		} else if (x < i.elemento) {
 		   inserir2(x, i.esq, i);
@@ -126,3 +132,4 @@ class No {
     this.elemento = elemento;
   }
 }
+
