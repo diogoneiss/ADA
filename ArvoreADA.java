@@ -50,7 +50,7 @@ public class ArvoreADA {
             //MyIO.println("\tNumero sendo inserido agora: "+entradas[i][j]);
             conjuntoArvores[j].inserir2(entradas[i][j]);
           }
-		  MyIO.println("-------------------------");
+		  //MyIO.println("-------------------------");
         }
         for(int k = 0; k < linhas; k++){
          //MyIO.println("Mostrando a arvore: "+k);
