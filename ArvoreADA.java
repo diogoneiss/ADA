@@ -1,7 +1,3 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.File;
-import java.util.Date;
 
 public class ArvoreADA {
 	private No raiz; // Raiz da arvore.
